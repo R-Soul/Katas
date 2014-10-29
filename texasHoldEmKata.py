@@ -3,10 +3,8 @@
         que juego tiene cada mano, darles puntajes y determinar cual gana
         (regresa una cadena con el formato indicado) 
 """
-cards = "Kc 9s Ks Kd 9d 3c 6d\n9c Ah Ks Kd 9d 3c 6d\nAc Qc Ks Kd 9d 3c\n9h 5s\n4d 2d Ks Kd 9d 3c 6d\n7s Ts Ks Kd 9d"
 values = {"2":2, "3":3, "4":4, "5":5, "6":6, "7":7, "8":8, "9":9, "T":10, "J":11, "Q":12, "K":13, "A":14}
 reverse = {2:"2", 3:"3", 4:"4", 5:"5", 6:"6", 7:"7", 8:"8", 9:"9", 10:"T", 11:"J", 12:"Q", 13:"K", 14:"A"}
-players = cards.split("\n")
 
 def getKey1(item):
     return item[0]
